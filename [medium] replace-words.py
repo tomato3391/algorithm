@@ -20,6 +20,5 @@ class Solution:
             for pre in dict:
                 if words[i].startswith(pre):
                     words[i] = pre
-                    break
         
         return ' '.join(words)
