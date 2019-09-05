@@ -14,6 +14,5 @@ class Solution:
             cur += nums[i]
             ans += sums.get(cur - k, 0)
             sums[cur] = sums.get(cur, 0) + 1
-            print(sums)
             
         return ans
